@@ -5,7 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <NoWarn>CA2016;RCS1090;CS8618;IDE1006</NoWarn>
-        <UserSecretsId>e3f1b5f6-4d0f-436e-ac23-65ad51073ed4</UserSecretsId>
+        <UserSecretsId>a2d96a9b-0155-49af-a39c-ed31945635cc</UserSecretsId>
     </PropertyGroup>
 
     <ItemGroup>

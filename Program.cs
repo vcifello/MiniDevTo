@@ -21,5 +21,6 @@ app.UseSwaggerUi3(c => c.ConfigureDefaults());
 await DB.InitAsync(database: "MiniDevTo", host: "localhost");
 _001_seed_initial_admin_account.SuperAdminPassword = app.Configuration["SuperAdminPassword"];
 await DB.MigrateAsync();
-
+Console.WriteLine("SuperAdminpassword: " +  app.Configuration["SuperAdminPassword"]);
+Console.WriteLine("JWTSigningKey: " +  builder.Configuration["JwtSigningKey"]);
 app.Run();
